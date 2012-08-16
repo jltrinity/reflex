@@ -14,13 +14,12 @@ int main(){
 
 cronometro crono;
 
-crono.activar();
-cout << "Hello" << endl;
-for(int i=0;i<100000000;i++){}
-crono.parar();
+int espacio=0;
 
+cout << "Pulse una espacio" << endl;
+cin >> espacio;
 
-cout << "Tiempo total: " << (double)crono.tiempo() << endl;
+cout << "Espacio: " << espacio << endl;
 
 return 0;
 }
